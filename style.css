@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: #00260f;
+    color: white;
+    font-size: 23px;
+    margin: 5px 30px;
+    border-radius: 20px;
+}
+
+.header-container .logo {
+    width: 80px;
+    color: brown;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.header-container .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: brown;
+}
+
+.header-container .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+.header-container .menu a:hover {
+    color: #c7a627;
+    transition: 0.5s;
+}
+
+.header-container .icon button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #379399;
+    border: #379399;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.header-container .icon button:hover {
+    background-color: #c7a627;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+/* Header End */
+
+
+/* Body Start */
+
+.body-container .body-items {
+    background-image: url('image/banner-image.jpg');
+    /* width: 100%; */
+    height: 800px;
+    background-size: cover;
+    /* object-fit: fill; */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 30px;
+    border-radius: 5px;
+}
+
+.body-container .body-items {
+    text-align: left;
+    align-content: center;
+    padding: 0 50px;
+    font-size: 45px;
+}
+
+.body-items .btn button {
+    padding: 20px 40px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.btn .btn-1 {
+    background-color: #379399;
+    color: white;
+    border: #379399;
+    transition: 0.5s;
+}
+
+.btn .btn-1:hover {
+    transition: 0.5s;
+    background-color: #00260f;
+}
+
+.btn .btn-2 {
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn .btn-2:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Body End */
+
+
+/* Content Body Start */
+
+.content-body-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 15px 30px;
+}
+
+.content-body-items {
+    justify-content: center;
+    /* text-align: center; */
+    align-content: center;
+    margin: 20px 20px;
+}
+
+.content-body-items h4 {
+    padding: 10px 0;
+}
+
+.content-body-items h2 {
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+.content-body-items p {
+    padding: 10px 0;
+}
+
+.content-body-items1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.content-body-card {
+    /* border: 2px solid; */
+    padding: 10px 20px;
+    width: 440px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: baseline;
+    text-align: center;
+    background-color: #379399;
+}
+
+.content-body-card img {
+    width: 100px;
+}
+
+.content-body-items2 {
+    width: 900px;
+    height: 300px;
+    /* border: 2px solid; */
+}
+
+.content-body-items2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.position {
+    position: relative;
+}
+
+.content-body-items2 .btn-3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+    color: white;
+    background-color: #379399;
+}
+
+.content-body-items2 .btn-3:hover {
+    transition: 0.5s;
+    background-color: #00260f;
+}
+
+
+/* Content Body End */
+
+
+/* Info -Container - Start */
+
+.info-items {
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px 0px;
+    font-size: 30px;
+    background-color: #e4e48f;
+    transition: 0.5s;
+    color: #00260f;
+}
+
+.info-items:hover {
+    transition: 0.5s;
+    color: #c7a627;
+}
+
+.check-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* width: 500px; */
+    background-color: antiquewhite;
+    margin: 5px 30px;
+}
+
+.check-img img {
+    width: 50%;
+    object-fit: cover;
+    margin: 5px 30px;
+}
+
+.check-img .para {
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.para h2 {
+    padding: 10px 0;
+}
+
+.para p {
+    padding: 10px 0;
+}
+
+.three-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 20px 0;
+}
+
+.img1 {
+    width: 500px;
+    margin: 5px 30px;
+}
+
+.img1 img {
+    /* margin: 10px 5px; */
+    /* padding: 0 10px; */
+    border: 2px solid #379399;
+    background-color: #379399;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 500px;
+    margin: 5px 30px;
+}
+
+.img2 img {
+    border: 2px solid #00260f;
+    background-color: #00260f;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img3 {
+    width: 500px;
+    margin: 5px 30px;
+}
+
+.img3 img {
+    border: 2px solid #379399;
+    background-color: #379399;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.consulte-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0px 30px;
+}
+
+.consulte-img {
+    width: 450px;
+}
+
+.consulte-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 10px 30px;
+    padding: 10px 0;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: #00260f;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.foot:hover {
+    color: #c7a627;
+    transition: 0.5s;
+}
+
+.foot {
+    transition: 0.5s;
+}
+
+.footer-item .foot h3 {
+    margin: 10px 20px;
+    padding: 10px 0;
+}
+
+.footer-item .foot h4 {
+    margin: 10px 20px;
+    padding: 10px 0;
+}
+
+.footer-item .map {
+    width: 450px;
+    /* border: 2px solid; */
+}
+
+.footer-item .map iframe {
+    width: 100%;
+    border-radius: 5px;
+}
